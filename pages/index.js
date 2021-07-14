@@ -51,7 +51,7 @@ export default function Home({ txt }) {
 
             How to Buy/Sell: {' '}
             This Token is for demo purposes.you can buy or sell this on METAMASK ethereum wallet use (APP or Extension).
-            Setup METAMASK wallet and click on 'WALLET' then select 'Ropsten test network' and add token and past the contract address as shown on this page.
+            Setup METAMASK wallet and click on WALLET then select Ropsten test network and add token and past the contract address as shown on this page.
 
           </p>
 
@@ -82,7 +82,7 @@ export default function Home({ txt }) {
 
                 <div>
 
-                  <img src="/tshirt.png" width="150" height="150" />
+                  <Image src="/tshirt.png" width={150} height={150} alt="fop" />
                   <p>Nike Mens T-shirt</p>
                   <b>$10.00</b><br /><br />
                   <button type="submit" className={styles.PayButton} >Pay With MDAT Token or Other Crypto</button>
